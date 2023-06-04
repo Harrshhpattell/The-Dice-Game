@@ -23,6 +23,7 @@ html {
 }
 
 .dice-sec {
+  margin-top: 8%;
   display: flex;
   justify-content: space-around;
 }
@@ -60,7 +61,7 @@ img {
     text-align: center;
     font-family: 'Play', sans-serif;
     color: #454545;
-    animation: textFadeInOut 1s ease-in-out;
+    animation: textFadeInOut 2s ease-in-out;
     animation-iteration-count: infinite;
 }
 
