@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 * {
   margin: 0%;
   padding: 0%;
@@ -31,11 +32,41 @@ html {
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
   color: #FF0060;
+  margin-top: 6%;
+  font-style: italic;
 }
 
 img {
   padding: 5% 2%;
   width: 200px;
+}
+
+.crown1{
+    height: 2%;
+    text-align: center;
+}
+
+.crown2{
+    height: 2%;
+    text-align: center;
+}
+
+
+.crown{
+    color: #C07F00;
+}
+
+.result h1{
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    color: #454545;
+    animation: textFadeInOut 1s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.btn-refresh{
+    margin-top: 5%;
+    text-align: center;
 }
 
 @keyframes moveInBottom {
@@ -48,6 +79,18 @@ img {
     transform: translate(0);
   }
 }
+
+@keyframes textFadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 
 @media (max-width: 768px) {
   html {
