@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #dde6ed;
+  font-size: 16px;
+}
+
+.heading {
+  color: #e76161;
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2%;
+  text-shadow: 5px 0 #232931;
+  animation: moveInBottom 2s ease-out;
+}
+
+.dice-sec {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dice p {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #FF0060;
+}
+
+img {
+  padding: 5% 2%;
+  width: 200px;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+  img {
+    width: 150px;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+  img {
+    width: 100px;
+  }
+}
