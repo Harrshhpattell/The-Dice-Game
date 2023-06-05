@@ -95,7 +95,11 @@ img {
   
   .btn:active {
     box-shadow: #D8C4B6 2px 2px 0 0;
-    transform: translate(2px, 2px);
+  }
+  .h4{
+    text-align:center;
+    font-style: Italic;
+    backgroung-color:#fff;
   }
   
   @media (min-width: 768px) {
