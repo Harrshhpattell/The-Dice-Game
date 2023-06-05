@@ -89,19 +89,10 @@ img {
   .btn:hover {
     background-color: #fff;
   }
-
-  footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-  }
-
-  h4{
-    font-style: italic;
-    padding: 1%;
+  
+  .btn:active {
+    box-shadow: #D8C4B6 2px 2px 0 0;
+    transform: translate(2px, 2px);
   }
   
   @media (min-width: 768px) {
