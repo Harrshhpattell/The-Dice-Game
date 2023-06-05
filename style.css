@@ -96,7 +96,8 @@ img {
   .btn:active {
     box-shadow: #D8C4B6 2px 2px 0 0;
   }
-  .h4{
+
+  h4{
     text-align:center;
     font-style: Italic;
     backgroung-color:#fff;
